@@ -1,0 +1,21 @@
+/* Header Styles*/
+h1{ 
+    color:red;
+}
+
+/* List Styles*/
+ul {
+    list-style-type: none;
+}
+
+li{
+display: inline-block;
+margin-right: 50px;
+margin-left: 20px;
+
+}
+
+/* anchors and links */
+a{
+    font-size: 45px;
+}
