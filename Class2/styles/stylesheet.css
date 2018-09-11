@@ -1,4 +1,29 @@
 /* Adding all things for fonts and text */
 @import url("typography.css");
-/* Adding all things for page layout*/
+/* Adding all things for page layout */
 @import url("layout.css");
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}

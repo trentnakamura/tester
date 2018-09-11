@@ -1,21 +1,25 @@
-/* Header Styles*/
-h1{ 
-    color:red;
+/*------ Header styles ----------*/
+h1 {
+  color:rgba(64,66,112,1.00);
 }
 
-/* List Styles*/
+/* List styles */
 ul {
-    list-style-type: none;
+  list-style-type: none;
+  padding-left: 0px;
+	text-align: center;
+	font-family: 'Lato', serif;
 }
 
-li{
-display: inline-block;
-margin-right: 50px;
-margin-left: 20px;
-
+li {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 20px;
 }
 
 /* anchors and links */
-a{
-    font-size: 45px;
+a {
+  font-size: 35px;
+
 }
+
