@@ -1,0 +1,25 @@
+main {
+    width: 960px;
+    margin: 0px auto;
+    background-color: red;
+}
+
+.fullcard {
+    width: 45%;
+}
+
+.fullcard:first-child{
+    float: left;
+}
+
+.fullcard:nth-child(2){
+    float:right;
+}
+.clearfix{
+    clear:both;
+}
+
+.fullcard img {
+    width: 100%;
+}
+
