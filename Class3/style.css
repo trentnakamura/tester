@@ -23,3 +23,32 @@ main {
     width: 100%;
 }
 
+.fullcard2 {
+    width: 33%;
+}
+
+.fullcard2:first-child{
+    float: left;
+}
+
+.fullcard2:nth-child(2){
+ float:right;
+}
+.fullcard2:nth-child(3){
+ float:right;
+  font-size:6px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.fullcard2 img {
+    width: 100%;
+}
+
+.fullcard3 {
+    width: 90%;
+}
+
+
