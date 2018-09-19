@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+nav{
+    background-color: red;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+  
+}
+
+main{
+    margin-top: 58px;
+}
