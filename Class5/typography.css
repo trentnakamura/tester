@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+p{
+    font-family: 'lato', san-serif;
+    
+
+}
+
+p::first-letter{
+    font-size: 40px;
+    vertical-align: middle;
+    font-family: cursive;
+}
