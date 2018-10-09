@@ -23,7 +23,7 @@
 {   color:darkslategray; 
 	text-decoration: none;
 	padding: 1px 45px;
-	font-size: 36px;
+	font-size: 20px;
     border: 1px solid gray;
 }
 
@@ -34,27 +34,57 @@ color: white;
 	
 }
 .bodytext{
-width:45%;
+width:90%;
 padding:10px;
 }
 
-.bodytext:first-child{
-    float:left;}
-
-.bodytext:nth-child(1){
-    float:right;}
-
+img {
+    width: 100%;
+    height: auto;
+}
 
     /* desktop design */
 
 @media only screen and (min-width: 768px) {
 
+
+    .img {
+        width: 45%;
+        height: auto;
+        float:left;
+        position:absolute;
+        }
+
+    .img2 {
+        width: 55%;
+        height: auto;
+        float:right;
+        margin-top:100px;
+        }
+
     .bodytext{
-    column-count: 2;
-    width:45%;
-    overflow: none;
-    max-height: none;
-    margin-top: none;
-}
+         column-count: 2;
+         width:45%;
+         position:absolute;
+         top:600px;
+         }
+        
+    .bodytext2{
+          column-count: 2;
+          width:45%;
+          position:absolute;
+          margin-left:650px;
+          margin-top:600px;
+          
+    }
     
+    .main-nav li a
+    { 
+         font-size: 25px;
+        }
+    
+    .container{
+        position:relative;
+        background-color:red;
+    }
 }

@@ -4,7 +4,6 @@ p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height:28px;
-    background-color:orange;
 }
 
 p::first-letter{
@@ -23,4 +22,12 @@ h2{
     font-family: 'Roboto', sans-serif;
     font-size:15px;
     color:darkslategrey;
+}
+
+@media only screen and (min-width: 768px) {
+    h1{font-size:35px;
+    }
+
+    h2{font-size:25px;
+    }
 }
