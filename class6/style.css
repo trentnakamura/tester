@@ -1,0 +1,57 @@
+@import url("typography.css");
+
+    
+
+/* mobile design */
+     
+.main-nav 
+{text-align:center;
+float: center;
+list-style: none;
+margin-top: 12px;
+	
+}
+.main-nav li
+{ display: inline-block; margin-right: 72px;}
+.main-nav li a{
+	
+	color:black; 
+	text-decoration: none;
+	padding: 1px 45px;
+	font-size: 36px;
+	border: 1px solid gray;
+}
+
+.main-nav li.active a
+{ background-color: cornflowerblue; 
+border:2px cornflowerblue;
+color: white;
+	
+}
+.bodytext{
+width:40%;
+padding:10px;
+max-height:200px;
+overflow:auto;
+}
+
+.bodytext:first-child{
+    float:left;}
+
+.bodytext:nth-child(1){
+    float:right;}
+
+
+    /* desktop design */
+
+@media only screen and (min-width: 768px) {
+
+    .bodytext{
+    column-count: 2;
+    width:45%;
+    overflow: none;
+    max-height: none;
+    margin-top: none;
+}
+    
+}
