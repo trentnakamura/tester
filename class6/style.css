@@ -82,6 +82,33 @@ img {
          font-size: 25px;
         }
     
-   
+   .blogcontainer{
+       height:400px;
+       width:100%;
+       background-color:red;
+   }
+
+   .post1{
+        height:200px;
+        width:30%;
+        background-color:blue;
+        float:left;
+        margin-left:10px;
+   }
+
+   .post2{
+    height:200px;
+    width:30%;
+    background-color:cyan;
+    float:left;
+    margin-left:10px;
+}
+    .post3{
+    height:200px;
+    width:30%;
+    background-color:orange;
+    float:left;
+    margin-left:10px;
+}
 
 }
