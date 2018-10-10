@@ -52,14 +52,13 @@ img {
         width: 45%;
         height: auto;
         float:left;
-        position:absolute;
         }
 
     .img2 {
-        width: 55%;
+        width: 45%;
         height: auto;
         float:right;
-        margin-top:100px;
+        margin-top:200px;
         }
 
     .bodytext{
@@ -83,8 +82,5 @@ img {
          font-size: 25px;
         }
     
-    .container{
-        position:relative;
-        background-color:red;
-    }
+   
 }
