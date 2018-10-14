@@ -95,8 +95,21 @@ img {
    .img3{
     width: 40%;
     height: auto;
-    margin-left:10%;
-  
+    margin-left:10%; 
 }
 
+.mainpic{
+    width:40%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.content1{
+    text-align:center;
+}
+.logo{
+    width:50%;
+    height:auto;
+    margin: 0 auto;
+}
 }
