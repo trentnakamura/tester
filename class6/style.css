@@ -116,5 +116,18 @@ img {
     float:left;
     margin-left:10px;
 }
+    .blogimg{
+        background-color:red;
+        width: 30%;
+        padding: 20px;
+        height:auto;
+    }
 
+    .card{
+        background-color:blue;
+        padding:20px;
+        margin-top: 20px;
+    }
+
+    
 }
