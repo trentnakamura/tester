@@ -1,7 +1,5 @@
 @import url("typography.css");
 
-    
-
 /* mobile design */
 
 
@@ -37,7 +35,13 @@ ul li a{
     font-size:15px;
 }
 
-
+.content{
+    margin-top:30px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
 /* tablet design */
 
 @media only screen and (min-width: 600px) {
@@ -46,6 +50,11 @@ ul li a{
         text-decoration: none;
         padding:50px;
         font-size:18px;
+    }
+    img {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
     }
 }
 
@@ -58,5 +67,10 @@ ul li a{
         text-decoration: none;
         font-size:20px;
         margin:10px;
+    }
+    img {
+        width: 45%;
+        height: auto;
+        margin-left: 5%;
     }
 }
