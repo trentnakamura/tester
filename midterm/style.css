@@ -125,4 +125,14 @@ img {
     height:auto;
     float:left;
 }
+
+.blogentry{
+    columns: 4;
+    width:90%;
+    margin-left:2.5%;
+}
+.post1{
+    width:50%;
+    height:auto;
+}
 }
