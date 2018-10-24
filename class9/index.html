@@ -8,24 +8,42 @@
 </head>
 <body>
 
-    <h1 id="docHeader"></h1>
+    <div class = "button-container">
+        <button onclick="changeMyText()">Change Text</button>
+        <button onclick="changeMyColor()">Change Color</button>
+    </div>
+
+    <h1 id="docHeader">Goodbye, Sky!</h1>
     <script>
-        //this is my header text
-        var myText = "Hello, Sky!";
+         var docHeader=document.getElementById("docHeader");
+        
+        var changeMyText=function(){
+            //this is my header text
+            var myText = "Hello, World!";
+            docHeader.innerHTML= myText; 
+        }
+        
+        var changeMyColor = function(){
+            //this is a random color assignment
+            var red = Math.random()*255;
+            var green = Math.random()*255;
+            var blue = Math.random()*255;
+            
+            var RGBval = "rgb(" + red + ", " + green + ", " + blue + ")";
+            console.log(RGBval);
+            docHeader.style.color= RGBval  // rgb(red), 0, 255);
+
+        }
+       
 
         //this is a numberic value for my header font size
-        var myTextSize = "100px";
+        var myTextSize = Math.random()*100;
 
-        //this is a random color assignment
-        var red = Math.random()*255;
-        var green = Math.random()*255;
-        var blue = Math.random()*255;
+        console.log(docHeader);
 
-        var docHeader=document.getElementById("docHeader");
-
-        docHeader.innerHTML= myText;
-        docHeader.style.fontSize = myTextSize;
-        docHeader.style.color="rgb(" + red + ", 0, 255)";   // rgb(red), 0, 255);
+       
+        docHeader.style.fontSize = myTextSize+ "px";
+        
     </script>
 </body>
 </html>
