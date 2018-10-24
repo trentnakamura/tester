@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+</head>
+<body>
+
+    <h1 id="docHeader"></h1>
+    <script>
+        //this is my header text
+        var myText = "Hello, Sky!";
+
+        //this is a numberic value for my header font size
+        var myTextSize = "100px";
+
+        //this is a random color assignment
+        var red = Math.random()*255;
+        var green = Math.random()*255;
+        var blue = Math.random()*255;
+
+        var docHeader=document.getElementById("docHeader");
+
+        docHeader.innerHTML= myText;
+        docHeader.style.fontSize = myTextSize;
+        docHeader.style.color="rgb(" + red + ", 0, 255)";   // rgb(red), 0, 255);
+    </script>
+</body>
+</html>
