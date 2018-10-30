@@ -4,16 +4,29 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+
 </head>
 <body>
 
     <div class = "button-container">
         <button onclick="changeMyText()">Change Text</button>
         <button onclick="changeMyColor()">Change Color</button>
+        <button onclick="changeMyBodycopy()">Change Body Copy</button>
+        <button onclick="changeMyBodyColor()">Change Body Color</button>
+
     </div>
+    <div class="dropdown">
+        <button id="myBtn" class="dropbtn">Menu Bar</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+
 
     <h1 id="docHeader">Goodbye, Sky!</h1>
+    <p id="bodyCopy">this is what will go in the body of my website.</p>
     <script>
          var docHeader=document.getElementById("docHeader");
         
@@ -22,6 +35,12 @@
             var myText = "Hello, World!";
             docHeader.innerHTML= myText; 
         }
+
+       var changeMyBodycopy=function(){
+           var Bodycopy = "this is my body copy";
+           bodyCopy.innerHTML=Bodycopy;
+       }
+        
         
         var changeMyColor = function(){
             //this is a random color assignment
@@ -33,6 +52,24 @@
             console.log(RGBval);
             docHeader.style.color= RGBval  // rgb(red), 0, 255);
 
+        }
+        var changeMyBodyColor = function(){
+            //this is a random color assignment
+            var red = Math.random()*255;
+            var green = Math.random()*255;
+            var blue = Math.random()*255;
+            
+            var RGBval = "rgb(" + red + ", " + green + ", " + blue + ")";
+            console.log(RGBval);
+            bodyCopy.style.color= RGBval  // rgb(red), 0, 255);
+
+        }
+    
+        document.getElementById("myBtn").onclick = function() {myFunction()};
+
+        function myFunction() {
+         document.getElementById("myDropdown").classList.toggle("show");
+        
         }
        
 
