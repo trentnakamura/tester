@@ -12,6 +12,8 @@
 <body>
        <div class = "button-container">
            <button onclick="changeMyColor() ">Change Color</button>
+           <button onclick="changeMyBackgroundColor() ">Change Background Color</button>
+           <button onclick="changeBackgroundImage()">Set Background Image</button>
        </div>
 
        <h1 id="docHeader">Welcome To My Website!</h1>
@@ -28,8 +30,21 @@
             var RGBval = "rgb(" + red + ", " + green + ", " + blue + ")";
             console.log(RGBval);
             docHeader.style.color= RGBval  // rgb(red), 0, 255);
+            } 
 
-        }
+           var changeMyBackgroundColor = function(){
+            var red = Math.random()*255;
+            var green = Math.random()*255;
+            var blue = Math.random()*255;
+            
+            var RGBval = "rgb(" + red + ", " + green + ", " + blue + ")";
+            console.log(RGBval);
+            docHeader.style.backgroundColor= RGBval  // rgb(red), 0, 255);
+           }
+           function changeBackgroundImage(){
+               document.body.style.backgroundImage = "url('https://www.pennington.com/-/media/images/pennington-na/us/blog/seed/all-you-need-to-know-about-zoysia-grass/zoysia-header.jpg')";
+           }
+
        </script>
 
     <img class="dogpic" src="images/dogpic.jpeg"  alt="Dog Pic">
