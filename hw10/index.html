@@ -13,7 +13,7 @@
     <div class="button-container">
         <button id="imgToggle">Hide Cat</button>
         <button id="imgSwitch">Switch Cat</button>
-        <button id="changeColor">Change Color</button>
+        <button id="changeHeader">Change Header</button>
     </div>
     <h2>This is My Website!</h2>
     <div class="img-container">
@@ -34,8 +34,8 @@
                 imageSwitch();
             });
 
-            $('#changeColor').click(function(){
-                $("h2").css({"color": "red", "font-size":"500%"
+            $('#changeHeader').click(function(){
+                $("h2").css({"color": "red", "font-size":"500%", "background-color": "blue"
                 });
             });
             
@@ -56,7 +56,8 @@
                 // see https://api.jquery.com/toggle-event/
                 $('.page-img').toggle();
             }   
-            
+          
+ 
         });
 
 
