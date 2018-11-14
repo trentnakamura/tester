@@ -7,6 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <style>
+        .basic-header {
+            color: green;
+            font-size: 200%;
+        }
+        .fancy-header {
+            color: red;
+            font-size:  500%;
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
 
@@ -15,7 +26,7 @@
         <button id="imgSwitch">Switch Cat</button>
         <button id="changeHeader">Change Header</button>
     </div>
-    <h2>This is My Website!</h2>
+    <h2 class="basic-header">This is My Website!</h2>
     <div class="img-container">
         <img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" alt="Cat" class="page-img">
         <img src="https://media.mnn.com/assets/images/2018/07/cat_eating_fancy_ice_cream.jpg.838x0_q80.jpg" alt="Cat 2" class="page-img" style="display:none;">
@@ -35,8 +46,7 @@
             });
 
             $('#changeHeader').click(function(){
-                $("h2").css({"color": "red", "font-size":"500%", "background-color": "blue"
-                });
+                $("h2").toggleClass('fancy-header');
             });
             
         
