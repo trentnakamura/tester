@@ -60,12 +60,19 @@
                 }
             }
          
-            $('#appendTo').click(function(){
-                imagetoAppend();
+      
+            $("#appendTo").click(function() {
+            $('.img-container').prepend('<img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" prepended="yes"/>')
             });
-            var imageToAppend = function(){
-                $('#img-container').append('<img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" />');
-            }
+
+
+            // $('#appendTo').click(function(){
+            //     imagetoAppend();
+            // });
+            // var imageToAppend = function(){
+            
+            // $('<img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg">').appendTo(".img-container");
+            // }
             });
 
     </script>
