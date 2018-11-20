@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<style>
+
+    .page-img{
+        float:left;
+        width:20%;
+        height:auto;
+    }
+    </style>
+    <div class="button-container">
+        <button id="imgToggle">Hide Cat</button>
+        <button id="appendTo">Add Cat</button>
+    
+    </div>
+    <h2 class="basic-header">This is My Website!</h2>
+    <div class="img-container">
+        <img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" alt="Cat" class="page-img">
+
+        <img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" alt="Cat" class="page-img">
+
+        <img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" alt="Cat" class="page-img">
+
+        <img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" alt="Cat" class="page-img">
+
+        <img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" alt="Cat" class="page-img">
+
+        <img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" alt="Cat" class="page-img">
+    </div>
+    
+ 
+    
+
+    <script>
+        $(document).ready(function(){
+
+            $('#imgToggle').click(function(){
+                imageToggle();
+            });
+           
+            
+            var imageToggle = function(){
+                // see https://api.jquery.com/toggle-event/
+                $('.img-container').toggle();
+                // see https://api.jquery.com/css/
+                if($('.img-container').css('display') === 'none'){
+                    $('#imgToggle').text("Show Cat");
+                }
+                else {
+                    $('#imgToggle').text("Hide Cat");
+                }
+            }
+         
+            $('#appendTo').click(function(){
+                imagetoAppend();
+            });
+            var imageToAppend = function(){
+                $('#img-container').append('<img src="https://www.catster.com/wp-content/uploads/2018/07/Savannah-cat-long-body-shot.jpg" />');
+            }
+            });
+
+    </script>
+   
+</body>
+</html>
