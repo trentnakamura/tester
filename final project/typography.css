@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/* mobile design */
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin:20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-align: center;
+    margin-bottom:0;
+    margin-top:0;
+    
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    color:darkslategrey;
+    text-align: center;
+    margin-top:0;
+    
+}
+
+/* tablet design */
+@media only screen and (min-width: 600px) {
+    h1{font-size:20px;
+    }
+
+    h2{font-size:15px;
+    }
+    p{font-size:15px;
+    }
+}
+
+
+/* desktop design*/
+
+@media only screen and (min-width: 768px) {
+    h1{font-size:20px;
+        text-align:left;
+        margin-left:10%;
+    }
+
+    h2{font-size:18px;
+        text-align:left;
+        margin-left:10%;
+    }
+    p{
+        font-size: 15px;
+        width:80%;
+        margin-left:10%;
+        text-align:left;
+    }
+
+    
+}
