@@ -78,11 +78,6 @@ img {
         margin-left: 10%;
     }
 
-    .project1,.project2,.project3,.project4{
-        width:50%;
-        height:auto;
-        float:left;
-    }
     .blogentry{
         columns: 3;
         width:100%;
@@ -137,26 +132,17 @@ img {
     margin-left:15%;
     margin-right:15%;
 }
-.content1{
-    text-align:center;
-}
+
 .logo{
     width:15%;
     height:auto;
     margin: 0 auto;
-   
-}
+   }
 
-.project1,.project2,.project3,.project4{
-    width:50%;
-    height:auto;
-    float:left;
-}
 
 .blogentry{
     columns: 4;
     width:90%;
-    margin-left:2.5%;
 }
 .post1{
     width:50%;
