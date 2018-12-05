@@ -13,8 +13,7 @@ h1{
     color: cornflowerblue;
     text-align: center;
     margin-bottom:0;
-    margin-top:0;
-    
+    margin-top:0;    
 }
 
 h2{
@@ -22,8 +21,7 @@ h2{
     font-size:15px;
     color:darkslategrey;
     text-align: center;
-    margin-top:0;
-    
+    margin-top:0;   
 }
 
 /* tablet design */
@@ -31,9 +29,9 @@ h2{
     h1{font-size:20px;
     }
 
-    h2{font-size:15px;
+    h2{font-size:20px;
     }
-    p{font-size:15px;
+    p{font-size:18px;
     }
 }
 
@@ -43,12 +41,11 @@ h2{
 @media only screen and (min-width: 768px) {
     h1{font-size:20px;
         text-align:left;
-        margin-left:10%;
     }
 
     h2{font-size:18px;
         text-align:left;
-        margin-left:10%;
+        
     }
     p{
         font-size: 15px;
