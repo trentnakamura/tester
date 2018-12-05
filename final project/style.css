@@ -87,6 +87,10 @@ img {
         columns: 3;
         width:100%;
     }
+    .content{
+        margin-left:15%;
+        margin-right:15%;
+    }
    
 }
 
@@ -121,11 +125,18 @@ img {
 }
 
 .mainpic{
-    width:50%;
+    width:80%;
     height:auto;
     margin: 0 auto;
 }
-
+.mainpic2{
+    width:100%;
+    height:auto;
+}
+.content{
+    margin-left:15%;
+    margin-right:15%;
+}
 .content1{
     text-align:center;
 }
@@ -152,3 +163,4 @@ img {
     height:auto;
 }
 }
+
