@@ -149,5 +149,43 @@ img {
     width:50%;
     height:auto;
 }
+
+.container {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    margin-left:30%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    min-width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.form-input {
+    min-width: 400px;
+}
+
+textarea {
+    display: block;
+    min-height: 200px;
+    margin-left: 100px;
+    min-width: 400px;
+}
+
+.alert {
+    min-height: 338.5px;
+}
+
+.alert-success {
+    border: 1px solid ;
+    background-color: lightgreen; 
+}
+
 }
 
