@@ -121,8 +121,6 @@ img {
     .main-nav{
         list-style:none;
         display:inline-block;
-        padding:20px;
-        width:100%;
     }
     .active{
         display:inline-block;
@@ -132,10 +130,14 @@ img {
         display: inline-block;
         padding: 15px;
     }
-    
-    ul{
-        display:unset;
+    ul li a{
+        text-decoration: none;
+        padding:50px;
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+        
     }
+    
   .toggle{
       display:none;
   }
@@ -174,9 +176,12 @@ img {
 }
 
 .logo{
-    width:15%;
+    width:100px;
     height:auto;
     margin: 0 auto;
+    float:right;
+    position:absolute;
+    margin-top:8px;
    }
    .socialmedia{
     width:25%;
@@ -192,7 +197,9 @@ img {
     width:50%;
     height:auto;
 }
-
+.socialmedia{
+    margin-top:200px;
+}
 .container {
     width: 50%;
     margin: auto;
@@ -221,12 +228,12 @@ textarea {
 }
 
 .alert {
-    min-height: 338.5px;
+    min-height: 200px;
 }
 
 .alert-success {
     border: 1px solid ;
-    background-color: lightgreen; 
+    background-color: lightblue; 
 }
 
 }
