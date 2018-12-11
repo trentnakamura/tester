@@ -1,6 +1,12 @@
 @import url("typography.css");
 
 /* mobile design */
+.form-group label {
+    display: inline-block;
+    text-align: right;
+    margin-bottom:20px;
+    width:20%;
+}
 
    .main-nav{
         width: 80%;
@@ -91,6 +97,8 @@ img {
 /* tablet design */
 
 @media only screen and (min-width: 600px) {
+    
+
     ul li a{
         color: white;
         text-decoration: none;
@@ -199,7 +207,7 @@ img {
     margin: 0 auto;
     float:right;
     position:absolute;
-    margin-top:8px;
+    margin-top:5px;
    }
    .socialmedia{
     width:25%;
