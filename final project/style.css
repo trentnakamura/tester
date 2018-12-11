@@ -72,12 +72,11 @@ img {
 }
 
 .logo{
-    width: 20%;
-    margin-left:10%;
-    margin-right: auto;
-    margin-top:25px;
-    position:absolute;
-    
+    width: 40px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right: auto; 
+    float:left;   
 }
 .active{
     display:block;
@@ -90,6 +89,11 @@ img {
         text-decoration: none;
         font-size:18px;
     }
+    .logo{
+        width: 50px;
+        margin-top:10px; 
+    }
+
     img {
         width: 80%;
         height: auto;
@@ -114,14 +118,19 @@ img {
 /* desktop design*/
 
 @media only screen and (min-width: 768px) {
-
+    .main-nav{
+        list-style:none;
+        display:inline-block;
+        padding:20px;
+        width:100%;
+    }
     .active{
         display:inline-block;
     }
     ul li{
         list-style: none;
         display: inline-block;
-        padding: 5px;
+        padding: 15px;
     }
     
     ul{
