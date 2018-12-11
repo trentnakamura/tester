@@ -10,10 +10,13 @@ p{
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: royalblue;
+    color: white;
     text-align: center;
     margin-bottom:0;
-    margin-top:0;    
+    margin-top:0; 
+    background-color:#001f44;
+    height:40px; 
+    padding:30px;
 }
 
 h2{
