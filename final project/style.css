@@ -3,14 +3,14 @@
 /* mobile design */
 
    .main-nav{
-        width: 100%;
+        width: 80%;
         background-color: royalblue;
     }
     ul{
         width: 100%;
         margin: 0 auto;
         padding: 20px;
-        text-align:center;
+        text-align:left;
         display:none;
     }
     ul li{
@@ -74,7 +74,8 @@ img {
     width:70%;
     height:auto;
     margin-left:15%;
-    margin-top:00px;
+    margin-top:50px;
+    
 }
 
 .logo{
@@ -124,9 +125,13 @@ img {
 /* desktop design*/
 
 @media only screen and (min-width: 768px) {
+    
     .main-nav{
+        background: #001f44;
         list-style:none;
         display:inline-block;
+        width:96%;
+        text-align:center;
     }
     .active{
         display:inline-block;
@@ -135,6 +140,7 @@ img {
         list-style: none;
         display: inline-block;
         padding: 15px;
+        
     }
     ul li a{
         text-decoration: none;
