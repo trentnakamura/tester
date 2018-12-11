@@ -2,7 +2,43 @@
 
 /* mobile design */
 
+   .main-nav{
+        width: 100%;
+        background-color: royalblue;
+    }
+    ul{
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        text-align:center;
+        display:none;
+    }
+    ul li{
+        list-style: none;
+        display: block;
+        padding: 5px;
+    }
+    ul li:hover{
+        background: lightskyblue;
+    }
+    
+    ul li a{
+        color: white;
+        text-decoration: none;
+        padding:10px;
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .toggle{
+        width:100%;
+        padding: 10px 20px;
+        background: #001f44;
+        text-align: right;
+        box-sizing: border-box;
+        color: #fff;
+        font-size: 30px;
 
+    }
 body
 {
     margin: 0;
@@ -17,34 +53,6 @@ body
     width:100%;
     height:auto;
    
-}
-.main-nav{
-    width: 100%;
-    background-color: royalblue;
-    margin-top:12px;
-    
-}
-ul{
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-    text-align:center;
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
-}
-ul li:hover{
-    background: lightsalmon;
-}
-
-ul li a{
-    color: white;
-    text-decoration: none;
-    padding:10px;
-    font-size:15px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .content{
@@ -71,13 +79,15 @@ img {
     position:absolute;
     
 }
+.active{
+    display:block;
+}
 /* tablet design */
 
 @media only screen and (min-width: 600px) {
     ul li a{
         color: white;
         text-decoration: none;
-        padding:50px;
         font-size:18px;
     }
     img {
@@ -105,13 +115,21 @@ img {
 
 @media only screen and (min-width: 768px) {
 
-    ul li a{
-        color: white;
-        text-decoration: none;
-        font-size:20px;
-        margin:10px;
+    .active{
+        display:inline-block;
     }
-  
+    ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    ul{
+        display:unset;
+    }
+  .toggle{
+      display:none;
+  }
    
    .img1{
        width:40%;
@@ -167,9 +185,8 @@ img {
 }
 
 .container {
-    width: 960px;
+    width: 50%;
     margin: auto;
-    padding: 20px;
     margin-left:30%;
 }
 
